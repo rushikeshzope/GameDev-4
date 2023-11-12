@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <div class="score">
+            <span id="left-score">0</span><span>-</span><span id="right-score">0</span>
+        </div>
+        <div class="image-container">
+            <div class="left-box">
+                <p>You</p>
+                <img class="remove rem" id="player-img" src="../assets/scissors-hand.png" height="280rem" width="100%" alt="">
+                <div class="player-buttons buttons play">
+                    <div id="rock"> <img src="../assets/rock-logo.png" alt=""></div>
+                    <div id="paper"><img src="../assets/paper-logo.png" alt=""></div>
+                    <div id="scissor"><img src="../assets/scissors-logo.png" alt=""></div>
+                </div>
+            </div>
+            <div class="vs-img">
+                <img src="../assets/vs.png" height="570rem" alt="">
+            </div>
+            <div class="right-box">
+                <p>Comp</p>
+                <img class="remove rem " id="comp-img" src="../assets/scissors-hand.png" height="280rem" width="100%" alt="">
+                <div class="buttons hidden" id="comps-button">
+                    <div> <img src="../assets/rock-logo.png" alt=""></div>
+                    <div><img src="../assets/paper-logo.png" alt=""></div>
+                    <div><img src="../assets/scissors-logo.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="result hidden play">
+
+        <h2 id="won-text">You won the game</h2>
+
+        <div class="play-again-button" id="play-again-button">
+            <p>PLAY AGAIN</p>
+        </div>
+
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

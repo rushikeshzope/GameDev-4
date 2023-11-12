@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Nunito+Sans:opsz@6..12&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../assets/bg.png);
+}
+
+.container{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score{
+    font-size: 6rem;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 18px;
+    margin-left: 10px;
+}
+
+.left-box{
+    border: 2px solid rgb(255,196,52);
+    width: 36%;
+    height: 29%;
+    padding-bottom: 2vh;
+    margin-top: -6rem;
+}
+
+.right-box{
+    border: 2px solid rgb(255,196,52);
+    width: 36%;
+    height: 29%;
+    padding-bottom: 2vh;
+    margin-top: -6rem;
+}
+
+.vs-img{
+    margin-inline: 6rem;
+}
+
+.buttons img{
+    height: 6rem;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.remove{
+    visibility: hidden;
+}
+
+#won-text{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.play-again-button{
+    background-color: #f5b410;
+    border-radius: 6px;
+    width: 10rem;
+    font-weight: bolder;
+    height: 3rem;
+}
+
+.play-again-button p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    margin-top: 0.6rem;
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
